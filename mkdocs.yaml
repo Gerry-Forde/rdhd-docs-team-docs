@@ -1,5 +1,5 @@
-site_name: "RHDH Team Documentation"
-site_description: "Documentation for Red Hat Developer Hub Team"
+site_name: "RHDH Docs Team Documentation"
+site_description: "Documentation for Red Hat Developer Hub Docs Team"
 site_url: "https://devhub.corp.redhat.com/catalog/default/component/rhdh-team-docs/docs"
 
 plugins:
@@ -7,61 +7,3 @@ plugins:
 
 nav:
   - Home: index.md
-  - Team Accomplishments: team-accomplishments.md
-  - Processes:
-      - Onboarding: processes/onboarding.md
-      - Education Roadmap: processes/education-roadmap.md
-      - Offboarding: processes/offboarding-checklist.md
-      - Engineering: processes/engineering.md
-      - Triage Maintainer: processes/triage-maintainer.md
-  - Plugins: plugins/index.md
-  - Teams:
-      - Core:
-        - Overview: teams/core/core.md
-        - Resources: teams/core/resources.md
-      - Security:
-        - Overview: teams/security/security.md
-      - Docs:
-        - Overview: teams/docs/docs.md
-        - Resources: teams/docs/resources.md
-      - Dynamic plugins:
-        - Overview: teams/dynamic-plugins/dynamic-plugins.md
-        - Resources: teams/dynamic-plugins/resources.md
-      - Install methods:
-        - Overview: working-groups/install-methods/index.md
-        - Resources: working-groups/install-methods/resources.md
-      - Plugins:
-        - Overview: teams/plugins/plugins.md
-        - Resources: teams/plugins/resources.md
-      - UI:
-        - Overview: teams/ui/ui.md
-        - Resources: teams/ui/resources.md
-  - SIGs:
-      - Product downstream: sigs/product-downstream.md
-      - QE: sigs/qe.md
-      - Upstream SIGs: sigs/upstream.md
-  - Working groups:
-      - Productization:
-        - Overview: working-groups/productization/index.md
-        - Resources: working-groups/productization/resources.md
-      - RBAC:
-        - Overview: working-groups/rbac/index.md
-      - Team instance:
-          - Goals: working-groups/team-instance/goals.md
-          - Instances: working-groups/team-instance/instances.md
-          - Known issues: working-groups/team-instance/known-issues.md
-  - Engineering:
-      - Create plugins:
-          - Frontend: engineering/create-plugins/frontend/README.md
-          - Backend: engineering/create-plugins/backend/README.md
-          - Dynamic plugins: engineering/create-plugins/dynamic-plugins/README.md
-  - Testing:
-      - Debugging: testing/debug.md
-      - Dev Testing: testing/dev.md
-      - E2E Testing: testing/e2e.md
-      - Unit Testing: testing/unit-test.md
-  - Team Instance Set-Up Guide:
-      - CONTRIBUTING: team-instance-setup-guide/CONTRIBUTING.md
-      - Trouble Shooting Set-Up Guide: team-instance-setup-guide/setup-guide.md
-  - Team Guidelines:
-      - Social Contract: team-guidelines/social-contract.md
