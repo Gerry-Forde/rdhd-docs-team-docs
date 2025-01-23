@@ -1,0 +1,35 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: rhdh-team-docs
+  namespace: default
+  title: RHDH Team Documentation
+  description: Documentation for Red Hat Developer Hub Team
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    jira/project-key: RHIDP
+    jira.com/dashboard-url: https://issues.redhat.com/secure/Dashboard.jspa?selectPageId=12360794
+  tags:
+    - onboarding
+    - documentation
+    - team-resource
+  links:
+    - url: https://devhub.corp.redhat.com/catalog/default/group/rhdh-team
+      title: "Owned by: RHDH Team"
+      icon: group
+    - url: https://issues.redhat.com/secure/Dashboard.jspa?selectPageId=12360794
+      title: "RHIDP Team Dashboard"
+      icon: link
+    - url: https://issues.redhat.com/secure/Dashboard.jspa?selectPageId=12363716
+      title: "RHIDP Hygiene Dashboard"
+      icon: link
+    - url: https://issues.redhat.com/secure/Dashboard.jspa?selectPageId=12369190#
+      title: "RHIDP Feature Tracking Dashboard"
+      icon: link
+    - url: https://issues.redhat.com/secure/Dashboard.jspa?selectPageId=12363303
+      title: "RHIDP Release Tracking"
+      icon: link
+spec:
+  type: documentation
+  lifecycle: active
+  owner: rhdh-team
