@@ -3,8 +3,8 @@ kind: Component
 metadata:
   name: rhdh-team-docs
   namespace: default
-  title: RHDH Team Documentation
-  description: Documentation for Red Hat Developer Hub Team
+  title: RHDH Docs Team Documentation
+  description: Documentation for Red Hat Developer Hub Docs Team
   annotations:
     backstage.io/techdocs-ref: dir:.
     jira/project-key: RHIDP
