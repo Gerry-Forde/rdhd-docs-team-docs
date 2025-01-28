@@ -6,7 +6,7 @@ metadata:
   title: RHDH Docs Team Documentation
   description: Documentation for Red Hat Developer Hub Docs Team
   annotations:
-    backstage.io/techdocs-ref: dir:.
+    backstage.io/techdocs-ref: url:https://github.com/backstage/backstage/blob/master/docs
     jira/project-key: RHIDP
     jira.com/dashboard-url: https://issues.redhat.com/secure/Dashboard.jspa?selectPageId=12360794
   tags:
