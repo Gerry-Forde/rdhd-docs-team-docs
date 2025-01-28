@@ -1,9 +1,15 @@
-site_name: "RHDH Docs Team Documentation"
-site_description: "Documentation for Red Hat Developer Hub Docs Team"
-site_url: "https://devhub.corp.redhat.com/catalog/default/component/rhdh-team-docs/docs"
+# site_name: backstage
+# docs_dir: docs
+# plugins:
+#   - techdocs-core
 
+site_name: red-hat-developer-hub
+site_description: Red Hat Developer Hub
+site_author: user:user
+docs_dir: docs
 plugins:
   - techdocs-core
-
 nav:
-  - Home: index.md
+  - "Welcome To Red Hat Developer Hub": index.md
+  - "Highlights Of Red Hat Developer Hub": features.md
+  - "RHDH Docs resources": resources.md
