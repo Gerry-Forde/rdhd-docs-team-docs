@@ -26,10 +26,10 @@ metadata:
       title: Official documentation
       icon: docs
       type: docs
-    - url: https://issues.redhat.com/browse/RHIDP
-      title: Jira issues
-      icon: help
-      type: jira
+    # - url: https://issues.redhat.com/browse/RHIDP
+    #   title: Jira issues
+    #   icon: help
+    #   type: jira
     - url: https://github.com/redhat-developer/rhdh
       title: Sourcecode on GitHub
       icon: github
