@@ -16,6 +16,6 @@ metadata:
       type: website
 spec:
   type: product
-  # owner: rhdh-team
+  owner: Gerry-Forde
   lifecycle: production
   # system: rhdh
