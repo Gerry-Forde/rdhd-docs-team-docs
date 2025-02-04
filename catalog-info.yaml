@@ -16,6 +16,6 @@ metadata:
       type: website
 spec:
   type: product
-  owner: rhdh-team
+  # owner: rhdh-team
   lifecycle: production
   # system: rhdh
